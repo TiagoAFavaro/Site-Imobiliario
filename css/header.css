@@ -1,0 +1,87 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'forum' ;
+    src: url(../fontes/Forum-Regular.ttf);
+}
+@font-face {
+    font-family: 'garet';
+    src: url(../fontes/Garet-Book.ttf);
+}
+
+.header__left {
+    position: relative;
+    text-align: left;
+    left: -1rem;
+}
+
+.header__left h1 {
+    color: #af8c53;
+    font-family: 'forum';
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+.header__left p{
+    color: #af8c53;
+    font-family: 'forum';
+    font-weight: 500;
+    font-size: 6rem;
+    margin-right: 3rem;
+}
+
+.header__left .buy{
+    display: inline-block;
+    background-color: #252926;
+    color: #af8c53;
+
+    width: 100%;
+    max-width: 250px;
+    
+    padding: 16px;    
+
+    font-family: 'garet';
+    font-weight: 700;
+    font-size: 1rem;
+
+    border-radius: 30px;
+    cursor: pointer;
+    border: solid 1px #af8c53;
+}
+
+.header__left .list{
+    display: inline-block;
+    background-color: #af8c53;
+    color: #252926;
+
+    width: 100%;
+    max-width: 250px;
+    
+    padding: 16px;    
+
+    font-family: 'garet';
+    font-weight: 700;
+    font-size: 1rem;
+
+    border-radius: 30px;
+    cursor: pointer;
+    border: solid 1px #252926;
+}
+
+.header__right {
+    align-items: center;
+}
+
+.header__right img{
+    width: 40rem;
+}
+
+.vision__left {
+    position: relative;
+    background-color: blue;
+    top: 50rem;
+    right: 50rem;
+}
+
+.vision__left img {
+    width: 40rem;   
+}
